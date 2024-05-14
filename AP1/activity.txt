@@ -1,0 +1,4 @@
+Faça um programa em assembly modo real que conta a quantidade de vogais numa string
+declarada na memória, e printa essa informação na tela.
+
+obs: Funções de prints serão disponibilizadas para vocês.
