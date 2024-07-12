@@ -1,5 +1,5 @@
 Restore Archived Project report for pcihello
-Thu Jun 20 11:32:40 2024
+Fri Jul 12 15:23:03 2024
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Restore Archived Project Summary                                        ;
 +---------------------------------+---------------------------------------+
-; Restore Archived Project Status ; Successful - Thu Jun 20 11:32:40 2024 ;
+; Restore Archived Project Status ; Successful - Fri Jul 12 15:23:03 2024 ;
 ; Revision Name                   ; pcihello                              ;
 ; Top-level Entity Name           ; pcihello                              ;
 ; Family                          ; Cyclone IV GX                         ;
@@ -47,12 +47,12 @@ refer to the applicable agreement for further details.
 ; Restore Archived Project Messages ;
 +-----------------------------------+
 Warning (292006): Can't contact license server "27200@pesqueira.cin.ufpe.br" -- this server will be ignored.
-Info: Successfully restored 'D:/Users/lims/Downloads/mapeamento-0.2-alunos/mapeamento/pcihello.qar' into the 'D:/Users/lims/Downloads/mapeamento-0.2-alunos/mapeamento/pcihello_restored/' directory
+Info: Successfully restored 'D:/Users/pgoq/Documents/IF817-IHS/mapeamento-0.2-alunos/mapeamento/pcihello.qar' into the 'D:/Users/pgoq/Documents/IF817-IHS/mapeamento-0.2-alunos/mapeamento/pcihello_restored/' directory
 Info: Generated report 'pcihello.restore.rpt'
 Info (23030): Evaluation of Tcl script c:/intelfpga/quartus/common/tcl/apps/qpm/qar.tcl was successful
 Info: Quartus Prime Shell was successful. 0 errors, 105 warnings
-    Info: Peak virtual memory: 4863 megabytes
-    Info: Processing ended: Thu Jun 20 11:32:40 2024
+    Info: Peak virtual memory: 4865 megabytes
+    Info: Processing ended: Fri Jul 12 15:23:03 2024
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
