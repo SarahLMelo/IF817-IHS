@@ -14,7 +14,7 @@ module pcihellocore_pcie_hard_ip_0 #(
 		parameter       enable_gen2_core                    = "false",
 		parameter       gen2_lane_rate_mode                 = "false",
 		parameter       no_soft_reset                       = "false",
-		parameter       core_clk_divider                    = 4,
+		parameter       core_clk_divider                    = 2,
 		parameter       enable_ch0_pclk_out                 = "true",
 		parameter       core_clk_source                     = "pclk",
 		parameter       CB_P2A_AVALON_ADDR_B0               = 0,
@@ -354,7 +354,7 @@ module pcihellocore_pcie_hard_ip_0 #(
 			instantiated_with_wrong_parameters_error_see_comment_above
 					no_soft_reset_check ( .error(1'b1) );
 		end
-		if (core_clk_divider != 4)
+		if (core_clk_divider != 2)
 		begin
 			initial begin
 				$display("Generated module instantiated with wrong parameters");
@@ -1679,7 +1679,7 @@ module pcihellocore_pcie_hard_ip_0 #(
 		.enable_gen2_core                    ("false"),
 		.gen2_lane_rate_mode                 ("false"),
 		.no_soft_reset                       ("false"),
-		.core_clk_divider                    (4),
+		.core_clk_divider                    (2),
 		.enable_ch0_pclk_out                 ("true"),
 		.core_clk_source                     ("pclk"),
 		.CB_P2A_AVALON_ADDR_B0               (0),

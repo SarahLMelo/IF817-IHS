@@ -212,7 +212,7 @@
   <parameter name="bitClearingEdgeCapReg" value="false" />
   <parameter name="bitModifyingOutReg" value="false" />
   <parameter name="captureEdge" value="false" />
-  <parameter name="clockRate" value="62500000" />
+  <parameter name="clockRate" value="125000000" />
   <parameter name="direction" value="Input" />
   <parameter name="edgeType" value="RISING" />
   <parameter name="generateIRQ" value="false" />
@@ -226,7 +226,7 @@
   <parameter name="bitClearingEdgeCapReg" value="false" />
   <parameter name="bitModifyingOutReg" value="false" />
   <parameter name="captureEdge" value="false" />
-  <parameter name="clockRate" value="62500000" />
+  <parameter name="clockRate" value="125000000" />
   <parameter name="direction" value="Output" />
   <parameter name="edgeType" value="RISING" />
   <parameter name="generateIRQ" value="false" />
@@ -240,7 +240,7 @@
   <parameter name="bitClearingEdgeCapReg" value="false" />
   <parameter name="bitModifyingOutReg" value="false" />
   <parameter name="captureEdge" value="false" />
-  <parameter name="clockRate" value="62500000" />
+  <parameter name="clockRate" value="125000000" />
   <parameter name="direction" value="Output" />
   <parameter name="edgeType" value="RISING" />
   <parameter name="generateIRQ" value="false" />
@@ -254,7 +254,7 @@
   <parameter name="bitClearingEdgeCapReg" value="false" />
   <parameter name="bitModifyingOutReg" value="false" />
   <parameter name="captureEdge" value="false" />
-  <parameter name="clockRate" value="62500000" />
+  <parameter name="clockRate" value="125000000" />
   <parameter name="direction" value="Input" />
   <parameter name="edgeType" value="RISING" />
   <parameter name="generateIRQ" value="false" />
@@ -268,7 +268,7 @@
   <parameter name="bitClearingEdgeCapReg" value="false" />
   <parameter name="bitModifyingOutReg" value="false" />
   <parameter name="captureEdge" value="false" />
-  <parameter name="clockRate" value="62500000" />
+  <parameter name="clockRate" value="125000000" />
   <parameter name="direction" value="Output" />
   <parameter name="edgeType" value="RISING" />
   <parameter name="generateIRQ" value="false" />
@@ -285,7 +285,7 @@
    enabled="1">
   <parameter name="AST_LITE" value="0" />
   <parameter name="AUTO_CAL_BLK_CLK_CLOCK_DOMAIN" value="1" />
-  <parameter name="AUTO_CAL_BLK_CLK_CLOCK_RATE" value="62500000" />
+  <parameter name="AUTO_CAL_BLK_CLK_CLOCK_RATE" value="125000000" />
   <parameter name="AUTO_CAL_BLK_CLK_RESET_DOMAIN" value="1" />
   <parameter name="AUTO_DEVICE" value="EP4CGX150DF31C7" />
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="7" />
@@ -382,7 +382,7 @@
   <parameter name="my_gen2_lane_rate_mode" value="false" />
   <parameter name="no_command_completed" value="true" />
   <parameter name="no_soft_reset" value="false" />
-  <parameter name="p_pcie_app_clk" value="1" />
+  <parameter name="p_pcie_app_clk" value="0" />
   <parameter name="p_pcie_target_performance_preset" value="Maximum" />
   <parameter name="p_pcie_test_out_width" value="None" />
   <parameter name="p_pcie_txrx_clock" value="100 MHz" />
@@ -407,7 +407,7 @@
   <parameter name="bitClearingEdgeCapReg" value="false" />
   <parameter name="bitModifyingOutReg" value="false" />
   <parameter name="captureEdge" value="false" />
-  <parameter name="clockRate" value="62500000" />
+  <parameter name="clockRate" value="125000000" />
   <parameter name="direction" value="Input" />
   <parameter name="edgeType" value="RISING" />
   <parameter name="generateIRQ" value="false" />
@@ -441,7 +441,7 @@
    start="pcie_hard_ip_0.bar0"
    end="hexport.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0xc000" />
+  <parameter name="baseAddress" value="0xc040" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -450,7 +450,7 @@
    start="pcie_hard_ip_0.bar0"
    end="display.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0xc040" />
+  <parameter name="baseAddress" value="0xc160" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -459,7 +459,7 @@
    start="pcie_hard_ip_0.bar0"
    end="button.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0xc060" />
+  <parameter name="baseAddress" value="0xc140" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -473,7 +473,7 @@
  </connection>
  <connection kind="avalon" version="17.1" start="pcie_hard_ip_0.bar0" end="led.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0xc0a0" />
+  <parameter name="baseAddress" value="0xc100" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection

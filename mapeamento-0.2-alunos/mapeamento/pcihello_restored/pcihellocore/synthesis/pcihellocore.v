@@ -128,7 +128,7 @@ module pcihellocore (
 		.enable_gen2_core                    ("false"),
 		.gen2_lane_rate_mode                 ("false"),
 		.no_soft_reset                       ("false"),
-		.core_clk_divider                    (4),
+		.core_clk_divider                    (2),
 		.enable_ch0_pclk_out                 ("true"),
 		.core_clk_source                     ("pclk"),
 		.CB_P2A_AVALON_ADDR_B0               (0),
