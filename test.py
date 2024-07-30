@@ -1,6 +1,7 @@
 import pygame
 from main import main
-
+from game import *
+from Timer import *
 SCREEN_WIDTH = 1024
 SCREEN_HEIGHT = 768
 
@@ -11,6 +12,7 @@ screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 def menu():
     screen.fill((50, 58, 69))
 
+    timer = Timer()
     # Write text
     font = pygame.font.Font(None, 36)
     text = font.render("Press Enter to Start", True, (255, 255, 255))
@@ -25,7 +27,9 @@ def menu():
                 run = False
 
             if event.type == pygame.KEYDOWN and event.key == pygame.K_RETURN:
-                main()
+                win = main(screen,timer)
+                if win:
+                    win = stage2(screen,timer)
                 run = False
 
         pygame.display.update()
