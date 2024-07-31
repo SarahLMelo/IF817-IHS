@@ -14,7 +14,7 @@ WR_GREEN_LEDS = 24934
 class Placa:
     def __init__(self):
         self.char_driver = os.open("/dev/mydev", os.O_RDWR)
-        self.convert_display_table = [0x40,0x79,0x24,0x30,0x19,0x12,0x02,0x78,0x0,0x10]
+        self.convert_display_table = [0x40,0x79,0x24,0x30,0x19,0x12,0x02,0x78,0x0,0x10,0x7F]
         # realiza leitura inicial para p driver ter um bom funcionamento
         self.left_display_status = 0x40404040
         self.right_display_status = 0x40404040

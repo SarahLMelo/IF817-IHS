@@ -12,7 +12,6 @@ class Bar:
 
         self.spacing_between_bars = (SCREEN_WIDTH-10)*0.0588
         self.load_assets()
-        screen.fill((50, 58, 69))
         self.bar_background = pygame.Surface(self.assets["bar"].get_size(), pygame.SRCALPHA)
         self.bar_background.blit(self.assets["bar"], (0,0), (0, 0, 16, 48))
         self.bar_fill = pygame.Surface(self.assets["bar"].get_size(), pygame.SRCALPHA)

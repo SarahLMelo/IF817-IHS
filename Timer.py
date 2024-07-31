@@ -5,6 +5,7 @@ class Timer:
         self.placa = Placa()
         self.clock = pygame.time.Clock()
         self.time = 120*1000
+        self.set_time()
     def set_time(self):
         resto = self.time
         #calcular os minutos
@@ -19,6 +20,8 @@ class Timer:
         self.placa.write_display(6,minutos)
         self.placa.write_display(5,dsegundos)
         self.placa.write_display(4,usegundos)
+        for i in range(4):
+            self.placa.write_display(i, 10) #apagando os outros displays
     def update_time(self):
         milli = self.clock.tick()
         self.time -= milli
